@@ -1,0 +1,491 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"va",
+				"valorParada"
+			],
+			[
+				"valor",
+				"valorAtual"
+			],
+			[
+				"e",
+				"em\tTag"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"por",
+				"portType"
+			],
+			[
+				"vota",
+				"votacaoHelper"
+			],
+			[
+				"pauta",
+				"Pauta__c"
+			],
+			[
+				"relato",
+				"relatosEmVotacao"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: Install Package",
+		"selected_items":
+		[
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Install Package",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/eduar/Documents/Code Challenge",
+		"/C/Users/eduar/Documents/Code Challenge/src",
+		"/C/Users/eduar/Documents/Code Challenge/src/aura"
+	],
+	"file_history":
+	[
+		"/C/Users/eduar/Desktop/SnapInUAT",
+		"/C/Users/eduar/Desktop/JeanLouisDavid.html",
+		"/C/Users/eduar/Desktop/teste.html",
+		"/C/Users/eduar/Desktop/mpi",
+		"/C/Users/eduar/Desktop/JSON2Apex/JSON2Apex.apxc",
+		"/C/Users/eduar/Desktop/component.txt",
+		"/C/Users/eduar/Desktop/controllerJs.txt",
+		"/C/Users/eduar/Desktop/controllerApex.txt",
+		"/C/Users/eduar/Desktop/json_prvnd.json",
+		"/C/Users/eduar/Desktop/classeFactoryObjects.txt",
+		"/C/Users/eduar/Desktop/wsdldoxV2.wsdl",
+		"/C/Users/eduar/Desktop/teste.wsdl.xml",
+		"/C/Users/eduar/Desktop/wsdldox.xml",
+		"/C/wamp/www/examples.sample.php",
+		"/C/wamp/www/SalesforceAPI.php",
+		"/C/wamp/bin/php/php7.2.4/php.ini",
+		"/C/wamp/bin/php/php7.1.16/php.ini",
+		"/C/wamp/bin/php/php7.0.29/php.ini",
+		"/C/wamp/bin/php/php5.6.35/php.ini",
+		"/C/wamp/bin/apache/apache2.4.33/conf/httpd.conf",
+		"/C/wamp/www/salesforce-rest-api-php-wrapper-master/SalesforceAPI.php",
+		"/C/wamp/www/salesforce-rest-api-php-wrapper-master/examples.sample.php",
+		"/C/wamp64/www/resttest/demo_rest.php",
+		"/C/wamp64/www/resttest/oauth_callback.php",
+		"/C/wamp64/www/resttest/oauth.php",
+		"/C/wamp64/www/resttest/index.html",
+		"/C/wamp64/www/resttest/config.php",
+		"/C/wamp64/bin/apache/apache2.4.27/conf/extra/httpd-ssl.conf",
+		"/C/wamp64/bin/php/php5.6.31/php.ini",
+		"/C/wamp64/bin/apache/apache2.4.27/conf/httpd.conf",
+		"/C/Users/eduar/Desktop/SFDox.wsdl",
+		"/C/Users/eduar/Desktop/especificacao.txt",
+		"/C/Users/eduar/Desktop/cliente_servidor_web-master/servidor/servidor.py",
+		"/C/Users/eduar/Desktop/cliente_servidor_web-master/cliente/navegador.py",
+		"/C/Users/eduar/Desktop/novo.log",
+		"/C/Users/eduar/Desktop/apex-07L0U000002U3qSUAS.log",
+		"/C/Users/eduar/Desktop/apex-07L0U000002UCSvUAO.log",
+		"/C/Users/eduar/Desktop/documentos",
+		"/C/wamp64/www/visto.php",
+		"/C/Users/eduar/Desktop/apex-07L0U000002T3yaUAC.log",
+		"/C/wamp64/www/correio.html",
+		"/C/wamp64/www/funcoesBittrex.php",
+		"/C/wamp64/www/investir.html",
+		"/C/Users/eduar/Desktop/Eduardo Xavier 1 (1).3",
+		"/C/Users/eduar/Desktop/odemvendaprod",
+		"/C/Users/eduar/Desktop/AlteraOV.wsdl",
+		"/C/wamp64/www/funcoesBittreAntigo.php",
+		"/C/wamp64/www/Client.php",
+		"/C/wamp64/www/investir.php",
+		"/C/Users/eduar/Desktop/tncsalesforce.wsdl",
+		"/C/Users/eduar/Desktop/teste.wsdl",
+		"/C/wamp64/www/bot.php",
+		"/C/wamp64/www/edsonmedina/bittrex/Client.php",
+		"/C/Users/eduar/Desktop/wsdlSalesforce.xml",
+		"/C/Users/eduar/Desktop/wsMateriais.xml",
+		"/C/Users/eduar/Documents/Agrex Dev2/src/triggers/OpportunityTrigger.trigger",
+		"/C/Users/eduar/Desktop/MI_OV_SF_Sync_OutService.wsdl",
+		"/C/Users/eduar/Documents/Agrex Dev2/src/classes/OrdemVendaSapBO.cls",
+		"/C/Users/eduar/Desktop/MI_OV_ALT_SF_Sync_OutService.wsdl",
+		"/C/Users/eduar/Desktop/IntegracaoSafiSalesforce.xml",
+		"/C/Users/eduar/Desktop/InsertMateriais.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Parte 2/Funcionarios.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/wsUAU.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/wsUAU.xml",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/Acao_AINWARQV_Controller.cls",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/pages/Acao_AINWARQV.page",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/Modelo.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/Pessoas.xml",
+		"/C/Users/eduar/Desktop/Modelo(1).xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/autenticadorCompleto.wsdl",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Autenticador.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/testePessoa.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/Importar.wsdl.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/UAUWsdl.wsdl",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/pessoas.xsd",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/Projeto Parte 1/Consultar.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Zucchi/assinatura-email/codigoModeloEmail.html",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/wsVenda.xml",
+		"/C/Users/eduar/Desktop/CbCloud/Direcional/ExemploVendaUAUModificado.xml",
+		"/C/Users/eduar/Desktop/ExemploVendaUAU.xml",
+		"/C/Users/eduar/Desktop/CbCloud/naoFormatado.xml",
+		"/C/Users/eduar/Desktop/CbCloud/formatado.xml",
+		"/C/Users/eduar/Desktop/TESTE_XML.xml",
+		"/C/Users/eduar/Desktop/CbCloud/importar.py",
+		"/C/Users/eduar/Desktop/wsVenda.xml",
+		"/C/Users/eduar/Desktop/pessoas.xml",
+		"/C/Users/eduar/Desktop/Autenticador.xml",
+		"/C/Users/eduar/Desktop/FacadeService.xml",
+		"/C/Users/eduar/Desktop/erro.html",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/ImpressaoDiligenciaController.cls",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/ImpressaoDecisaoController.cls",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/ImpressaoDecisao_OficioHelper.cls",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/ImpressaoOficioController.cls",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/pages/DistribuicaoAcoesFiscaisInspetorias.page",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/pages/ImpressaoDecisao.page",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/pages/listaVerificacao.page",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/components/ata.component",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/components/Pauta.component",
+		"/C/Users/eduar/Desktop/test.txt",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/Acao_AIN_Test.cls",
+		"/C/Users/eduar/Desktop/listarfilhotest.txt",
+		"/C/Users/eduar/Desktop/listarfilhotest",
+		"/C/Users/eduar/Desktop/listarfilhoctrl.txt",
+		"/C/Users/eduar/Desktop/listarfilhopage.txt",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/classes/EfetuarVotoController.cls",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/pages/EfetuarVoto.page",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/triggers/Parecer_AprovacaoRelatoPlenario.trigger",
+		"/C/Users/eduar/Documents/CREA-MG DEV/src/triggers/Parecer_ControlaParecerAtivo.trigger",
+		"/C/Users/eduar/AppData/Roaming/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/C/Users/eduar/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"C6_LOTECTL",
+			"request",
+			"get",
+			"curl.cainfo",
+			"mod_ssl",
+			"Directory ",
+			"cache",
+			"processa_requisicao",
+			"HTML_NOT_FOUND",
+			"HTML_LISTAGEM",
+			"01s36000000rBUnAAM",
+			"id_X_product",
+			"debug",
+			"filtra",
+			"modalidade",
+			"montatabela",
+			"APOS",
+			"apos",
+			"Desconto antes =>",
+			"1039",
+			"ListaBuged",
+			"listQLI",
+			"ListaBuged",
+			"debug",
+			"frete fornecedor map bo",
+			"List<QuoteLineItem>",
+			"debug",
+			"Frete Cliente",
+			"listQLI",
+			"ListaBuged",
+			"CalculaMargem (PARAM)",
+			"CalculaMargem",
+			"calculaPrecoRealizado",
+			"ANTES",
+			"Calculo Convenio",
+			"1016",
+			"ANTES CALCULO ROYALTIE",
+			"calculaPrecoRealizado",
+			"PrecoRealizado__c",
+			"calculoPrecoRealizado>>>",
+			"POS",
+			"POS CALCULOS",
+			"atualizarPrecoRoyalties",
+			"item.unitPrice",
+			"185.77",
+			"calculaQuantidadeKgVendido",
+			"ANTES",
+			"ANTES CALCULO ROYALTIE",
+			"itens",
+			"numitemLinha",
+			"sinal com",
+			"sinal",
+			"inicio",
+			"LimiteCredTotalUSD__c",
+			"ValorLimiteCreditoUSD__c",
+			"RenegociacaoUSD__c",
+			"CreditoQuitadoUSD__c",
+			"CreditoQuitado__c",
+			"Renegociacao__c",
+			"ValorLimiteCredito__c",
+			"LimiteCredTotal__c",
+			"atualizarStatusUnidadesCondicaoPagamento",
+			"WSSetup__c",
+			"QuoteLineSyncField__c",
+			"mapa",
+			"map",
+			"WSSetup__c",
+			"opportunityToSync",
+			"MT_OV_SF_Request",
+			"condicao_element",
+			"mensagem_element",
+			"DT_OV_ALT_SF_Response",
+			"item_element",
+			"item",
+			"ordem_element",
+			"DT_OV_ALT_SF_Response",
+			"response_x",
+			"ordem",
+			"ordemResp_element",
+			"QuoteLineSyncField__c",
+			"FreteClienteSAP__c",
+			"CulturaSAP__c",
+			"OpportunityLineItem",
+			"createQueue",
+			"processingQueue",
+			"payload",
+			"json.serialize",
+			"WS_OrdemVendaSAP",
+			"item",
+			"item_element",
+			"comissão",
+			"premiação",
+			"soap12",
+			"contrato",
+			"parcela",
+			"user",
+			"StatusDaVenda",
+			"ImpostosType",
+			"TipoDePeriodo",
+			"TipoDeFianca",
+			"TipoDeVenda",
+			"RealizarCobranca",
+			"StatusEscrituraType",
+			"StatusEscritura",
+			"               ",
+			"                               ",
+			"executaAINWARQV",
+			"pagerefence",
+			"operação",
+			"ValorParcela",
+			"tip",
+			"ValorParcela",
+			"tipo",
+			"ListarInfoPagto",
+			"ListarInfoVenda",
+			"soap12",
+			"soap",
+			"ImportarDadosPessoasParaUau",
+			"ConsultarDadosAdicionaisPessoaPorChave",
+			"ImportarDadosPessoasParaUau",
+			"soap12",
+			"index",
+			"numero",
+			"\\r",
+			"\\\\n",
+			"\\n",
+			" ",
+			"TipoDeVenda"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"",
+			"string",
+			"Byte",
+			"</xsd:",
+			"<xsd:",
+			"<xsd",
+			"'",
+			"",
+			"</option>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Code Challenge.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"efetuarv",
+				"src\\pages\\EfetuarVoto.page"
+			],
+			[
+				"efetuar",
+				"src\\classes\\EfetuarVotoController.cls"
+			],
+			[
+				"parecer_contro",
+				"src\\triggers\\Parecer_ControlaParecerAtivo.trigger"
+			],
+			[
+				"parecer_aprovacao",
+				"src\\triggers\\Parecer_AprovacaoRelatoPlenario.trigger"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 354.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

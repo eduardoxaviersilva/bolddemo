@@ -1,0 +1,44 @@
+<aura:component controller="BOLD_ListProductsController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler action="{!c.closeModal}" event="c:BOLD_CloseModalProduct" />
+    
+    <aura:attribute name="listProductsAll" type="List" />
+    <aura:attribute name="listProducts" type="List" />
+    <aura:attribute name="showModalProduct" type="Boolean" default="false"/>
+    <aura:attribute name="productName" type="String"/>
+    <aura:attribute name="productImage" type="String"/>
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="enableInfiniteLoading" type="Boolean" default="true"/>
+    <aura:attribute name="initialRows" type="Integer" default="0"/>
+    <aura:attribute name="rowsToLoad" type="Integer" default="20"/>
+    <aura:attribute name="loadMoreOffset" type="Integer" default="20"/>
+    <aura:attribute name="totalNumberOfRows" type="Integer"/>
+    <aura:attribute name="loadMoreStatus" type="String" default=""/>
+    
+    <div class="slds-page-header" role="banner">
+        <div class="slds-media slds-no-space slds-grow">
+            <p class="slds-text-title_caps slds-line-height_reset">List of Products</p>
+        </div>
+    </div>
+    
+    <lightning:layout multipleRows="true">
+        <lightning:layoutItem size="12" class="table">
+            <lightning:datatable
+                                 keyField="id"
+                                 data="{! v.listProducts }"
+                                 columns="{! v.columns }"
+                                 hideCheckboxColumn="true"
+                                 onrowaction="{! c.handleRowAction }"
+                                 showRowNumberColumn="true"
+                                 loadMoreOffset="{! v.loadMoreOffset }"
+                                 enableInfiniteLoading="{! v.enableInfiniteLoading }"
+                                 onloadmore="{! c.loadMoreData }"/>
+        </lightning:layoutItem>
+    </lightning:layout>
+    {! v.loadMoreStatus }
+    <aura:if isTrue="{!v.showModalProduct == true}">
+    	<c:BOLD_ModalImageProduct productName="{! v.productName }" productImage="{! v.productImage }"/>
+    </aura:if>
+    
+</aura:component>

@@ -1,0 +1,25 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+
+    <aura:attribute name="productName" type="String" />
+    <aura:attribute name="productImage" type="String" />
+    
+    <div role="dialog" tabindex="-1" aria-labelledby="header43" class="slds-modal slds-fade-in-open  slds-scrollable--y slds-modal_large xcs-fix-max-height">
+    	<div class="slds-modal__container margin-top-modal altura-modal">
+            <div class="slds-modal__header slds-p-around--x-small" style="margin-top: -40px">
+                <h2 id="header43" class="slds-text-heading--x-small">{!v.productName}</h2>
+            </div>
+            <div class="slds-modal__content slds-p-around--medium">
+                <div class="slds-grid slds-wrap">
+                    <div class="slds-size--1-of-1 slds-large-size--1-of-1">
+                        <img src="{!v.productImage}"/>
+                    </div>
+                </div>                   
+            </div>
+            
+            <div class="slds-modal__footer">
+                <lightning:button class="slds-button slds-button--neutral" onclick="{!c.closeModal}">Cancel</lightning:button>
+            </div>
+        </div>
+    </div>
+    <div class="slds-backdrop slds-backdrop--open"></div>	
+</aura:component>

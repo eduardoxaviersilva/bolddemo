@@ -1,0 +1,17 @@
+{
+    "projectName": "Code Challenge",
+    "username": "xavier.challenger@gmail.com.bold",
+    "id": "0f8e6fa0-d236-11e8-8ca2-498d235b2a05",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://bolddemo-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\eduar\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "AuraDefinitionBundle",
+        "StaticResource"
+    ]
+}

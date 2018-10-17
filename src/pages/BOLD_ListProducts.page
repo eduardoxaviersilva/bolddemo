@@ -1,0 +1,18 @@
+<apex:page sidebar="false" showHeader="false">
+    <apex:includeLightning />
+    
+    <div id="myDivId"> 
+    </div>
+ 
+    <script>
+        
+        $Lightning.use("c:BOLD_ListProductsApp", function() {
+            $Lightning.createComponent("c:BOLD_ListProducts",
+                {},
+                "myDivId",
+                function(cmp) {
+                    
+                });
+        });
+     </script>
+</apex:page>

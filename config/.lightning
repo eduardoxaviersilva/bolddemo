@@ -1,0 +1,121 @@
+[
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSQmCAO"
+        },
+        "Id": "0Ad1t000000KSQmCAO",
+        "AuraDefinitionBundleId": "0Ab1t000000I4dlCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4dlCAC"
+            },
+            "DeveloperName": "BOLD_ListProducts"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSQcCAO"
+        },
+        "Id": "0Ad1t000000KSQcCAO",
+        "AuraDefinitionBundleId": "0Ab1t000000I4dlCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4dlCAC"
+            },
+            "DeveloperName": "BOLD_ListProducts"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSQrCAO"
+        },
+        "Id": "0Ad1t000000KSQrCAO",
+        "AuraDefinitionBundleId": "0Ab1t000000I4dlCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4dlCAC"
+            },
+            "DeveloperName": "BOLD_ListProducts"
+        },
+        "DefType": "HELPER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSQhCAO"
+        },
+        "Id": "0Ad1t000000KSQhCAO",
+        "AuraDefinitionBundleId": "0Ab1t000000I4dqCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4dqCAC"
+            },
+            "DeveloperName": "BOLD_ListProductsApp"
+        },
+        "DefType": "APPLICATION",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSTjCAO"
+        },
+        "Id": "0Ad1t000000KSTjCAO",
+        "AuraDefinitionBundleId": "0Ab1t000000I4ewCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4ewCAC"
+            },
+            "DeveloperName": "BOLD_ModalImageProduct"
+        },
+        "DefType": "COMPONENT",
+        "Format": "XML"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSdLCAW"
+        },
+        "Id": "0Ad1t000000KSdLCAW",
+        "AuraDefinitionBundleId": "0Ab1t000000I4ewCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4ewCAC"
+            },
+            "DeveloperName": "BOLD_ModalImageProduct"
+        },
+        "DefType": "CONTROLLER",
+        "Format": "JS"
+    },
+    {
+        "attributes": {
+            "type": "AuraDefinition",
+            "url": "/services/data/v36.0/tooling/sobjects/AuraDefinition/0Ad1t000000KSdQCAW"
+        },
+        "Id": "0Ad1t000000KSdQCAW",
+        "AuraDefinitionBundleId": "0Ab1t000000I4hyCAC",
+        "AuraDefinitionBundle": {
+            "attributes": {
+                "type": "AuraDefinitionBundle",
+                "url": "/services/data/v36.0/tooling/sobjects/AuraDefinitionBundle/0Ab1t000000I4hyCAC"
+            },
+            "DeveloperName": "BOLD_CloseModalProduct"
+        },
+        "DefType": "EVENT",
+        "Format": "XML"
+    }
+]
